@@ -1,0 +1,34 @@
+ERROR - 2022-02-04 03:51:43 --> Duplicate entry '2147483647' for key 'contact_no'
+CRITICAL - 2022-02-04 03:51:43 --> Duplicate entry '2147483647' for key 'contact_no'
+#0 E:\xampp\htdocs\CI4_crud\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\CI4_crud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\CI4_crud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\CI4_crud\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\CI4_crud\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\CI4_crud\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\CI4_crud\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\xampp\htdocs\CI4_crud\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 E:\xampp\htdocs\CI4_crud\app\Controllers\User.php(42): CodeIgniter\BaseModel->save(Array)
+#9 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#10 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-02-04 03:52:25 --> Duplicate entry '2147483647' for key 'contact_no'
+CRITICAL - 2022-02-04 03:52:25 --> Duplicate entry '2147483647' for key 'contact_no'
+#0 E:\xampp\htdocs\CI4_crud\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\CI4_crud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\CI4_crud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\CI4_crud\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\CI4_crud\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\CI4_crud\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\CI4_crud\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\xampp\htdocs\CI4_crud\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 E:\xampp\htdocs\CI4_crud\app\Controllers\User.php(42): CodeIgniter\BaseModel->save(Array)
+#9 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#10 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#14 {main}

@@ -1,0 +1,87 @@
+CRITICAL - 2022-02-03 05:03:19 --> Call to undefined function set_value()
+#0 E:\xampp\htdocs\CI4_crud\system\View\View.php(210): include()
+#1 E:\xampp\htdocs\CI4_crud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\CI4_crud\system\Common.php(1089): CodeIgniter\View\View->render('users/create', Array, true)
+#3 E:\xampp\htdocs\CI4_crud\app\Controllers\User.php(12): view('users/create')
+#4 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#5 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-03 05:12:42 --> Call to undefined function set_value()
+#0 E:\xampp\htdocs\CI4_crud\system\View\View.php(210): include()
+#1 E:\xampp\htdocs\CI4_crud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\CI4_crud\system\Common.php(1089): CodeIgniter\View\View->render('users/create', Array, true)
+#3 E:\xampp\htdocs\CI4_crud\app\Controllers\User.php(12): view('users/create')
+#4 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#5 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-03 05:50:57 --> syntax error, unexpected 'if' (T_IF)
+#0 E:\xampp\htdocs\CI4_crud\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\CI4_crud\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-03 05:52:47 --> Class 'Config\Servicces' not found
+#0 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#1 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 05:52:49 --> Class 'Config\Servicces' not found
+#0 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#1 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 07:28:05 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#1 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 07:31:38 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#1 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 07:32:01 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#1 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 07:38:44 --> Class 'App\Model\UserModel' not found
+#0 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->create()
+#1 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-03 07:48:59 --> Undefined variable: session
+#0 E:\xampp\htdocs\CI4_crud\app\Views\users\list.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 37, Array)
+#1 E:\xampp\htdocs\CI4_crud\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\CI4_crud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\CI4_crud\system\Common.php(1089): CodeIgniter\View\View->render('users/list', Array, true)
+#4 E:\xampp\htdocs\CI4_crud\app\Controllers\User.php(9): view('users/list')
+#5 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(825): App\Controllers\User->index()
+#6 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 E:\xampp\htdocs\CI4_crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\CI4_crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\CI4_crud\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#10 {main}
